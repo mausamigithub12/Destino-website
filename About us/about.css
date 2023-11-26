@@ -1,0 +1,273 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+ .main{
+    height: 600px;
+     background-image:url('../resources/image/lalala.avif'); 
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: top;
+    padding-top: 80px ;
+ }
+ body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+   background-color: rgb(16, 11, 46);
+    height: 120px;
+    width:90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:30px ; 
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    /* margin-left: 50px; */
+}.logos{
+    display: flex;
+   flex-direction: column;
+    
+}
+  
+   .logo{
+       font-weight: bold;
+       color: aliceblue;
+       
+       font-size: 27px;
+   
+   }
+   .logo1{
+       font-size:17px ;
+       font-weight: lighter;
+       color: grey;
+       /* padding:0 110px; */
+       
+   }
+   nav ul{
+       display: flex;
+     padding-left: 20%;
+       gap: 20px;
+       
+   }
+   nav ul li{
+       font-size: 17px;
+       text-transform: capitalize;
+       display: inline-block;
+      
+   }
+nav ul li a{
+   font-size: 17px;
+   text-transform: capitalize;
+   color:white ;
+   padding:10px;
+   text-decoration: none;
+
+   
+
+}
+.search{
+   color: black;
+   background-color: rgb(114, 28, 28);
+   width: 130px;
+   height: 120px;
+  
+   
+}
+nav  li a:hover{
+   color: brown;
+}
+
+.about{
+    font-size: 25px;
+    gap: 2%;
+}
+.home{
+    font-size: 17px;
+}
+.us{
+    color: rgb(216, 212, 212);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end;
+    align-items: center;
+     */
+     margin: 0px auto;
+     position: relative;
+    
+       bottom: 350px;left: 60px;
+}
+    
+
+.main2 {
+    background-image: url('../resources/image/background.avif');
+    height: 300px;
+    background-position: bottom;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    bottom: 200px; left: 45px;
+    width: 93%;
+    
+}
+.container{
+    display: flex;
+    position: relative;
+    /* margin-bottom: 30px; */
+    gap: 20px;
+    padding: 10px auto;
+    /* height: 50px; */
+    
+}
+.first input ,select {
+   
+    
+    padding: 10px auto;
+    height: 60px;
+    width: 300px;
+    opacity: 15%; 
+    border: 2px solid grey; 
+    
+} 
+.first input,select,hover{
+    border-color:2px solid brown;
+} 
+
+    
+
+ .second select  {
+     height: 60px;
+     width: 100px;
+     cursor: pointer;
+}
+ 
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 200px;
+    height:90px */
+    
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.find{
+    width: 90px;
+    height: 60px;
+    background-color: brown;
+    margin-top:20px;
+    color: aliceblue;
+    cursor:pointer;
+    border:none;
+}
+.find:hover{
+    background-color:rgb(212, 84, 84) ;
+    
+}
+
+
+
+
+.award{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+    
+}
+
+  .win{
+    font-size: 40px;
+    color: rgb(18, 4, 4 );
+    font-weight: lighter;
+  }
+  .look{
+    font-size: 17px;
+    color: rgb(92, 71, 71);
+    text-transform: uppercase;
+   padding-top:20px;
+  }
+
+  .both{
+    display: flex;
+    position: relative;
+    left: 40px;
+    color: gray;
+   
+    
+  }
+  .down{
+    display: flex;
+    justify-content: space-between;
+    width:50%
+    
+    
+    
+  }
+
+
+  .read{
+    color: azure;
+    background-color: brown;
+    width: 155px;
+    height: 65px;
+    position: relative;
+    bottom: 70px; left: 35px;
+
+  }
+  .read :hover{
+    background-color: rgb(247, 154, 154);
+    cursor: pointer;
+  }
+
+  /* .himal{
+     background-image: url(../mountain.avif); 
+    background-repeat: no-repeat;
+    background-position: cover; */
+  
+    .lorem{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+        align-items: center;
+        text-align: center; 
+        width: 60%;
+     }
+  
+  .fun{
+    font-size:40 px;
+
+  }
+  .tt{
+    font-size: 17px;
+  }
+
+  .fact{
+    text-transform: capitalize;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* bottom: 70px; top: 10px; */
+  }
+     
+        
+        
+
+     .number{
+        font-size: 30px;
+     }
+     
