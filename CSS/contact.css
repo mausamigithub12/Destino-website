@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+ .main{
+    height: 600px;
+     background-image:url('../resources/image/lulu.avif'); 
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: top;
+    padding-top: 80px ;
+ }
+ body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+   background-color: rgb(16, 11, 46);
+    height: 120px;
+    width:90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:30px ; 
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    /* margin-left: 50px; */
+}.logos{
+    display: flex;
+   flex-direction: column;
+    
+}
+  
+   .logo{
+       font-weight: bold;
+       color: aliceblue;
+       
+       font-size: 27px;
+   
+   }
+   .logo1{
+       font-size:17px ;
+       font-weight: lighter;
+       color: grey;
+       /* padding:0 110px; */
+       
+   }
+   nav ul{
+       display: flex;
+     padding-left: 20%;
+       gap: 20px;
+       
+   }
+   nav ul li{
+       font-size: 17px;
+       text-transform: capitalize;
+       display: inline-block;
+      
+   }
+nav ul li a{
+   font-size: 17px;
+   text-transform: capitalize;
+   color:white ;
+   padding:10px;
+   text-decoration: none;
+
+   
+
+}
+.search{
+   color: black;
+   background-color: rgb(114, 28, 28);
+   width: 130px;
+   height: 120px;
+  
+   
+}
+nav  li a:hover{
+   color: brown;
+}
+
+
+.main2 {
+     background-image: url('../resources/image/background.avif'); 
+    height: 300px;
+    background-position: bottom;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    bottom: 200px; left: 45px;
+    width: 93%;
+    
+}
+.container{
+    display: flex;
+    position: relative;
+    /* margin-bottom: 30px; */
+    gap: 20px;
+    padding: 10px auto;
+    /* height: 50px; */
+    
+}
+.first input ,select {
+   
+    
+    padding: 10px auto;
+    height: 60px;
+    width: 300px;
+    opacity: 15%; 
+    border: 2px solid grey; 
+    
+} 
+.first input,select,hover{
+    border-color:2px solid brown;
+} 
+
+    
+
+ .second select  {
+     height: 60px;
+     width: 100px;
+     cursor: pointer;
+}
+ 
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 200px;
+    height:90px */
+    
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.find{
+    width: 90px;
+    height: 60px;
+    background-color: brown;
+    margin-top:20px;
+    color: aliceblue;
+    cursor:pointer;
+    border:none;
+}
+.find:hover{
+    background-color:rgb(212, 84, 84) ;
+    
+}
+
+
+.contact{
+    color: rgb(216, 212, 212);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end;
+    align-items: center;
+     */
+     margin: 0px auto;
+     position: relative;
+    
+       bottom: 350px;left: 50px;
+}
+
+.cont{
+    font-size: 40px;
+}
+.home{
+    font-size: 20px;
+}
+
+
+.sabai{
+    position: relative;
+    left: 40px;
+    /* gap: 20px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.get{
+    font-size: 35px;
+
+}
+.say{
+    font-size: 17px;
+    color: rgb(92, 88, 88);
+    padding-top: 14px;
+}
+.latem{
+    color: rgb(99, 97, 97);
+    padding-top: 7%;
+    width: 40%;
+    
+}
+
+.address{
+    color: rgb(14, 10, 10);
+    font-size: 17px;
+    padding-top: 55px;
+}
+.beach{
+    color: rgb(12, 11, 11);
+}
+.phone{
+    padding-top: 25px;
+}
+.email{
+    padding-top: 25px;
+}
+
+.nam{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    position: relative;
+     right: 4%; margin-top: 10%; 
+}
+
+.nam  input{
+    height: 40px;
+    
+
+}
+.message input{
+    height: 200px;
+    width: 100%;
+}
+
+.send{
+    background-color: rgb(177, 17, 17);
+    width: 150px;
+    height: 55px;
+    position: relative;
+    left: 67%;
+    display: flex;
+    align-items: center;
+}
+
+    
+
+
+
+.all{
+    display: flex;
+    flex-direction: row;
+}
+/* .nam,input{
+    height: 90px;
+} */

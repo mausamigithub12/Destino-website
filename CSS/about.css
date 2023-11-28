@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
  .main{
     height: 600px;
-     background-image:url('../resources/image/batt.webp'); 
+     background-image:url('../resources/image/lalala.avif'); 
     background-size: cover;
     /* background-repeat: no-repeat; */
     background-position: top;
@@ -78,9 +79,29 @@ nav  li a:hover{
    color: brown;
 }
 
+.about{
+    font-size: 25px;
+    gap: 2%;
+}
+.home{
+    font-size: 17px;
+}
+.us{
+    color: rgb(216, 212, 212);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end;
+    align-items: center;
+     */
+     margin: 0px auto;
+     position: relative;
+    
+       bottom: 350px;left: 60px;
+}
+    
 
 .main2 {
-     background-image: url('../resources/image/background.avif'); 
+    background-image: url('../resources/image/background.avif');
     height: 300px;
     background-position: bottom;
     margin: 0px;
@@ -155,102 +176,98 @@ nav  li a:hover{
 }
 
 
-.news{
-    color: rgb(216, 212, 212);
+
+
+.award{
     display: flex;
-    flex-direction: column;
-    /* justify-content: end;
+    justify-content: center;
     align-items: center;
-     */
-     margin: 0px auto;
-     position: relative;
+    flex-direction: column;
+    padding-bottom: 60px;
     
-       bottom: 350px;left: 50px;
 }
 
-.new{
+  .win{
     font-size: 40px;
-}
-.home{
-    font-size: 20px;
-}
-
-
-
-.toppp{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 42px; top: 1px;
-}
-.topp{
-    font-size: 40px;
-}
-.top{
-    font-size: 15px;
-    color:rgb(88, 86, 86);
-    text-transform: uppercase;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.larem{
-    width: 87%;
-    padding-top: 30px;
-    padding-bottom: 6%;
-      color: rgb(137, 132, 132);
-}
-
-.next{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-     right: 3.5%; 
-    gap: 25px;
-}
-  .next input{
-    width: 290px;
-    height: 40px;
-    border: 2px solid red;
-    margin-bottom: 25%;
+    color: rgb(18, 4, 4 );
+    font-weight: lighter;
   }
-
-  .every{
-    display: flex;
-    flex-direction: row;
-  }
-
-
-  .ek{
+  .look{
     font-size: 17px;
-    position: relative;
-     top: 10px; 
-  }
-.dui{
-    font-size: 9px;
-    color: rgb(88, 86, 86);
+    color: rgb(92, 71, 71);
     text-transform: uppercase;
+   padding-top:20px;
+  }
+
+  .both{
+    display: flex;
     position: relative;
-    top: 5px; bottom: 3%;
-}
-/* .bali{
-    background-color: rgba(251, 11, 11,.7);
-    background-image: url('../maldives.webp');
-    height: 400px;
-    width: 300px; 
+    left: 40px;
+    color: gray;
+   
+    
+  }
+  .down{
+    display: flex;
+    justify-content: space-between;
+    width:50%
+    
+    
+    
+  }
+
+
+  .read{
+    color: azure;
+    background-color: brown;
+    width: 155px;
+    height: 65px;
+    position: relative;
+    bottom: 70px; left: 35px;
+
+  }
+  .read :hover{
+    background-color: rgb(247, 154, 154);
+    cursor: pointer;
+  }
+
+  /* .himal{
+     background-image: url(../mountain.avif); 
+    background-repeat: no-repeat;
+    background-position: cover; */
+  
+   
+  
+  .fun{
+    font-size:40px;
+
+  }
+  .tt{
+    font-size: 17px;
+    padding:30px;
+  }
+
+  .fact{
+    text-transform: capitalize;
+    color: rgb(39, 37, 37);
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    margin: 20px; */
-   
-   
+    : 40px;
+  }
+     
+  .lorem{
+    position: relative;
+    left: 20%; top: 40px;
+    width: 60%;
     
-    
+ }
+  
+        
 
-/* .seeee{
-    background-color: black;
-    width: 120px;
-    height: 60px;
-    margin: 30px;
-    color: aliceblue;
-} */
+     .number{
+        font-size: 30px;
+     }
+     

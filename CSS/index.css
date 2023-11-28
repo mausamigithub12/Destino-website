@@ -94,17 +94,18 @@ nav  li a:hover{
 }
 .texts{
     position: relative;
-    top:28%;left: 20px;
+    top:28%;
+    left: 20px;
     height: 300px;
     display: flex;
     justify-content:center ;
     align-items: center;
-    
+     text-align: center;
     
 }
-.DESTINO{
+  .DESTINO{
     position: absolute;
-    top: 0px;
+
     font-size: 230px;
     font-weight: 300px;
     font-family:Open Sans ;
@@ -117,7 +118,7 @@ nav  li a:hover{
     z-index: 1;
     font-size:50px ;
     color:white ;
-}
+}  
 .text2{
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
@@ -229,7 +230,7 @@ nav  li a:hover{
 }
 
 .paris{
-    background-image: url('../resources/image/paris.webp');
+    background-image: url('../resources/image/wow.avif');
     height: 350px;
     width: 215px;
     display:flex;
@@ -268,7 +269,7 @@ nav  li a:hover{
 }
 .greece{
    
-    background-image: url('../resources/image/e.jpg');
+    background-image: url('../resources/image/lulu.avif');
     background-repeat: no-repeat;
     width: 215px;
     height: 350px;
@@ -301,7 +302,7 @@ nav  li a:hover{
     flex-direction: column;
     opacity: 60%; 
     margin:30px;
-    left: 0px;
+    left: 0.5%;
     right: 0px;
     position: relative;
 }
@@ -317,7 +318,7 @@ nav  li a:hover{
     position: relative;
     margin: 30px;
     opacity: 60%; 
-    left: 0px;
+    left: 0.5%;
     right: 0px;
 } 
 
@@ -330,34 +331,15 @@ nav  li a:hover{
     color: rgb(246, 240, 240)
 
 }
-.seeee{
-    background-color: black;
-    width: 120px;
-    height: 60px;
-    margin: 30px;
-    color: aliceblue;
-}
 
 
-.aa{
-   
-    padding:60px ;
-}
-.bd{
-    font-size: 110px;
-  font-weight: lighter;
-  
-}
-.bb{
-    font-size: 30px;
-    padding: 10px;
-    gap: 10px;
-    
-}
+
+
+
 /* maldive */
 .a{
     
-    padding:60px;
+    padding-left:60%;
 }
 .b{
     font-size: 110px;
@@ -375,12 +357,8 @@ nav  li a:hover{
     justify-content: center;
     text-align: center;
 }
-.abc{
-    position: absolute;
-    top: 60px;
-    justify-content: center;
-    text-align: center;
-}
+
+
 
 .explore{
     position: relative;
@@ -478,25 +456,12 @@ nav  li a:hover{
     }
     #rat{
          background-image: url('../resources/image/c.jpg');
-        /* display: flex;
-    height:220px;
-    width: 220px;
-    gap:30px;
-    margin: 0px auto;
-    justify-content: flex-start;
-    align-items: flex-end; */ 
+        
     
     }
     #mat{
         background-image: url('../resources/image/k.jpg');
-        /* display: flex;
-    height:220px;
-    width: 220px;
-    gap:30px;
-    margin: 0px auto;
-    justify-content: flex-start;
-    align-items: flex-end;
-     */
+       
     }
 #tat{
     background-image: url('../resources/image/c.jpg');
@@ -506,16 +471,7 @@ nav  li a:hover{
 }
 
 .eight{
-    /* display: flex; */
     
-    /* flex-direction: column; */
-    /* justify-content: flex-end; */
-    /* padding: 0px 0px 20px 25px; */
-    /* background-position: bottom; */
-    /* text-align:center;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 30px; */
     
 }
 
@@ -670,4 +626,289 @@ nav  li a:hover{
         border:2px solid grey;
         color: white;
         background: transparent;
+    }
+
+
+
+
+
+/* media */
+
+    @media(max-width:480px){
+        .main{
+            height: 300px;
+           width: 100%;
+          
+          
+
+            /* background-repeat: no-repeat; */
+            /* background-position: top;
+            padding-top: 80px */
+
+
+        }
+        nav{
+            background-color: rgb(159, 44, 50);
+            height: 70px;
+            width:100%;
+            
+            top: 0px;
+            
+        }
+        nav ul {
+            display: none;
+        }
+
+        .texts{
+            display: flex;
+
+            
+            /* height: 200px; */
+            /* margin: 0px; */
+           top: 0.8%;  
+           left: 0px;
+           justify-items: center;
+           align-items: center;
+           text-align: center;
+
+        }
+        .DESTINO{
+          font-size: 50px;
+        }   
+        .world{
+         font-size: 20px;
+        } 
+        .search{
+            display: none;
+        } 
+       .logo{
+        font-size:20px ;
+       }
+       .logo1{
+        font-size: 10px;
+
+       }
+       .main2{
+        background-image: url('../resources/image/background.avif');
+    height: 600px;
+    width: 100%;
+    
+    /* background-position: bottom;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; */
+
+
+       }
+       .text2{
+        font-size: 16px;
+        background-color: blueviolet; 
+       /* margin-bottom: 60%; */
+       margin-top: 20%;
+       }
+       
+       .container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2%;
+
+       }
+
+       .first input ,select {
+   
+    
+        /* padding: 10px auto; */
+        height: 40px;
+        width: 385px;
+        opacity: 15%; 
+        border: 2px solid grey; }
+        
+        .second select  {
+            height: 40px;
+            width: 385px;
+            cursor: pointer;
+       }
+        
+       .find{
+        width: 100px;
+        height: 40px;
+    margin-left: 2px;}
+
+
+    .third{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        padding-top:10px ;
+        
+    }
+    .top{
+     color: rgb(41, 36, 36);
+     font-size: 28px;
+     
+     font-weight: 100;
+    }
+    .bottom{
+        color:grey;
+        font-size: 14pxpx;
+        padding-top: 13px;
+        text-transform: uppercase;
+    }
+    
+    .cities{
+        display: flex;
+        flex-direction: column;
+        gap:25px;
+        /* margin-bottom: 80px; */
+        
+    }
+    
+    .paris{
+        background-repeat: no-repeat;
+        height: 450px;
+        width: 370px;
+        margin-left: 5%;
+        
+       
+    }
+    .italy{
+        
+        margin-left: 5%;
+        width: 370px;
+        height: 450px;
+        
+        
+    }
+    .Cinque{
+       margin-left: 5%;
+        width: 370px;
+        height: 450px;
+        
+    }
+    .greece{
+       
+       margin-left: 5%;
+        width: 370px;
+        height: 450px;
+        
+    }
+    
+    .place{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        
+        
+    
+        
+    }
+    .a{
+         position: relative;
+         right: 18%; top: 10%;
+    }
+    
+        
+    
+    
+    .maldive{
+       
+        height: 480px;
+        width: 420px;
+        display: flex;
+       
+        
+    }
+        
+    
+    
+    .bali{
+       
+        height: 480px;
+        width: 420px; 
+        
+        
+    } 
+    
+      
+    .explore{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        width: 100%;
+        background-color: black;
+        
+        
+    }
+    .change{
+      
+        
+        margin-top: 20%;
+    }
+    
+     .day{
+        
+       
+        font-size: 28px;
+    }
+     .night{
+       
+        
+        font-size: 10px;
+        padding: 10px; 
+     }
+      .video video{
+        width: 100%;
+        height: 100%;
+   
+       
+     } 
+     
+     .pt{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        color: rgb(150, 18, 18);
+        
+    
+    
+       }
+       .popular{
+        
+        
+            color: rgb(41, 36, 36);
+            font-size: 30px;
+            
+            font-weight: 100;
+           }
+           .take{
+               color:grey;
+               font-size: 13px;
+               padding-top: 13px;
+               text-transform: uppercase;
+           }
+    
+    
+    
+    
+   
+    
+
+
+
+
+
+
+      .popular,.take,.pt ,.pic1,.special,.best,.tog{
+            display: none;
+        }
     }
