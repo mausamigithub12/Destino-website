@@ -512,7 +512,7 @@ nav  li a:hover{
     /* height:220px; */
     gap: 24px;
     margin: 0px auto;
-      background-color: red;  
+      
      width: 90%;
      
     justify-content: flex-start;
@@ -526,7 +526,7 @@ nav  li a:hover{
 
     
  .pic{
-    background-color: green; 
+   
     height: 350px;
      width: 100%; 
     display: flex;
@@ -614,7 +614,7 @@ nav  li a:hover{
 
 .tog{
     background-image: url('../resources/image/lalala.avif');
-    margin-top: -30px;
+    
     height: 350px;
     width: 100%;
     display: flex;
@@ -622,7 +622,8 @@ nav  li a:hover{
         align-items: center;
         flex-direction: column; 
         position: relative;
-        top: 70px;
+        top: 31px;
+        gap:20px;
         
    } 
 
@@ -679,9 +680,11 @@ nav  li a:hover{
             background-color: rgb(159, 44, 50);
             height: 70px;
             width:100%;
-            
-            top: 0px;
-            
+            width: 83%;
+    top: 32px;
+    right: 3.5%;
+    left: 2.5%;
+           
         }
         nav ul {
             display: none;
@@ -793,8 +796,9 @@ nav  li a:hover{
         display: flex;
         flex-direction: column;
         gap:25px;
-        background-color: brown;
-        width: 350px;
+       
+        width: 100%;
+       
         
         /* margin-bottom: 80px; */
         
@@ -803,7 +807,7 @@ nav  li a:hover{
     .paris{
         background-repeat: no-repeat;
         height: 450px;
-        width: 350px;
+        width: 77%;
         margin-left: 5%;
         
        
@@ -811,14 +815,14 @@ nav  li a:hover{
     .italy{
         
         margin-left: 5%;
-        width: 350px;
+        width: 77%;
         height: 450px;
         
         
     }
     .Cinque{
        margin-left: 5%;
-        width: 350px;
+        width: 77%;
         height: 450px;
         
     }
@@ -826,7 +830,7 @@ nav  li a:hover{
         
        
        margin-left: 5%;
-        width: 350px;
+        width: 77%;
         height: 450px;
         
     }
@@ -835,6 +839,7 @@ nav  li a:hover{
         display: flex;
         flex-direction: column;
         gap: 2px;
+        background-size: cover;
         
         
     
@@ -851,7 +856,7 @@ nav  li a:hover{
     .maldive{
        
         height: 480px;
-        width: 420px;
+        width: 85%;
         display: flex;
        
         
@@ -862,7 +867,7 @@ nav  li a:hover{
     .bali{
        
         height: 480px;
-        width: 420px; 
+        width: 85%; 
         
         
     } 
@@ -918,22 +923,23 @@ nav  li a:hover{
         
         
             color: rgb(41, 36, 36);
-            font-size: 20px;
+            font-size: 21px;
             
             font-weight: 100;
            }
            .take{
                color:grey;
-               font-size: 13px;
+               font-size: 10px;
                padding-top: 13px;
                text-transform: uppercase;
            }
            
            .pic1{
-            width: 90%;
-            display: grid;
-            grid-template-columns: 20%  ;
-          flex-direction: columns;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+          
+    
             gap: 20px;
             margin: 0px auto;
             justify-content: flex-start;
@@ -950,13 +956,16 @@ nav  li a:hover{
             
             /* background-color: green; */
             background-repeat: no-repeat;
-            height: 800px;
-            width: 440px;
+            height: 500px;
+            width: 92%;
+            position: relative;
+            right: 4%;
             display: flex;
             flex-direction: column;
             text-align: center;
             justify-content: flex-end;
             align-items: flex-start;
+            background-size: cover;
 
          }
             
@@ -978,9 +987,14 @@ nav  li a:hover{
                    
                   .special{
                     
+                    font-weight: 100;
                     margin:20%; 
                     
                     
+                }
+
+                .pecial{
+                    font-weight: 100;
                 }
                 .best{
                   
@@ -998,11 +1012,12 @@ nav  li a:hover{
                 /* gap: 20px; */
                } 
                .sub{
-                font-size: 25px;
+                font-size: 27px;
                }
                .subscribe{
-                 margin-top: 8%; 
-                margin-left: 5%;
+                 position: relative;
+                 top: 21%; left: 28%;
+
                 
                 
                
@@ -1016,11 +1031,15 @@ nav  li a:hover{
                 }
                 #email{
                     padding: 20px;
-                    width: 400px;
-                    margin-top: 8%;
-                    margin-left: 5%;
+                    width: 381px;
+                    position: relative;
+                  top:9% ; left: 5%; right: 7%;
+                   
+                   
                     
-                }        
+                }      
+                
+                
                 
     }
                  
