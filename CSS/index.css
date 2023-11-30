@@ -673,10 +673,16 @@ nav  li a:hover{
 
 /* media */
 
-    @media(max-width:480px){
+    @media(max-width:480px)
+    {
+
+
+        .body{
+            width: 100%;
+        }
         .main{
             height: 300px;
-           width: 100%;
+           width: 518px;
 
 
         }
@@ -726,7 +732,7 @@ nav  li a:hover{
        .main2{
         background-image: url('../resources/image/background.avif');
     height: 600px;
-    width: 100%;
+    width: 518px;
     
     /* background-position: bottom;
     margin: 0px;
@@ -739,7 +745,7 @@ nav  li a:hover{
 
        }
        .text2{
-        font-size: 21px;
+        font-size: 19px;
         color: rgb(72, 72, 91);
        /* margin-bottom: 60%; */
        margin-top: 20%;
@@ -757,14 +763,14 @@ nav  li a:hover{
     
         /* padding: 10px auto; */
         height: 40px;
-        width: 420px;
+        width: 456px;
         opacity: 15%; 
         border: 2px solid grey; 
     }
         
         .second select  {
             height: 40px;
-            width: 420px;
+            width: 455px;
             cursor: pointer;
        }
         
@@ -782,6 +788,8 @@ nav  li a:hover{
         margin-top: 80px;
         margin-bottom: 80px;
         padding-top:10px ;
+        position: relative;
+        left: 15%;
         
     }
     .top{
@@ -802,7 +810,7 @@ nav  li a:hover{
         flex-direction: column;
         gap:25px;
        
-        width: 100%;
+        width: 521px;
        
         
         /* margin-bottom: 80px; */
@@ -812,7 +820,7 @@ nav  li a:hover{
     .paris{
         background-repeat: no-repeat;
         height: 450px;
-        width: 77%;
+        width: 77.5%;
         margin-left: 5%;
         
        
@@ -820,14 +828,14 @@ nav  li a:hover{
     .italy{
         
         margin-left: 5%;
-        width: 77%;
+        width: 77.5%;
         height: 450px;
         
         
     }
     .Cinque{
        margin-left: 5%;
-        width: 77%;
+        width: 77.5%;
         height: 450px;
         
     }
@@ -835,7 +843,7 @@ nav  li a:hover{
         
        
        margin-left: 5%;
-        width: 77%;
+        width: 77.5%;
         height: 450px;
         
     }
@@ -845,7 +853,7 @@ nav  li a:hover{
         flex-direction: column;
         gap: 2px;
         background-size: cover;
-        
+        width:518px;
         
     
         
@@ -861,9 +869,9 @@ nav  li a:hover{
     .maldive{
        
         height: 480px;
-        width: 90%;
+        width: 89%;
        position: relative;
-       left: -1.5%;
+       left: -0.5%;
 
        
         
@@ -874,9 +882,9 @@ nav  li a:hover{
     .bali{
        
         height: 480px;
-        width: 90%; 
+        width: 89%; 
         position: relative;
-       left: -1.5%;
+       left: -0.5%;
 
         
     } 
@@ -889,7 +897,7 @@ nav  li a:hover{
         justify-content: center;
         align-items: center;
         height: 500px;
-        width: 100%;
+        width: 518px;
         background-color: black;
         
         
@@ -924,7 +932,8 @@ nav  li a:hover{
         display: flex;
         flex-direction: column;
         color: rgb(150, 18, 18);
-        
+        position: relative;
+        left: 20%;
     
     
        }
@@ -932,7 +941,7 @@ nav  li a:hover{
         
         
             color: rgb(41, 36, 36);
-            font-size: 21px;
+            font-size: 15px;
             
             font-weight: 100;
            }
@@ -944,7 +953,7 @@ nav  li a:hover{
            }
            
            .pic1{
-            width: 100%;
+            width: 517px;
             display: flex;
             flex-direction: column;
           
@@ -966,7 +975,7 @@ nav  li a:hover{
             /* background-color: green; */
             background-repeat: no-repeat;
             height: 500px;
-            width: 90%;
+            width:464px;
             position: relative;
             right: 6%;
             display: flex;
@@ -997,13 +1006,19 @@ nav  li a:hover{
                   .special{
                     
                     font-weight: 100;
-                    margin:20%; 
+                     margin: 12%;
+                    padding-left: 25%;
                     
                     
                 }
 
                 .pecial{
+                    font-size: 27px;
                     font-weight: 100;
+                    
+                }
+                .cial{
+                    font-size: 10px;
                 }
                 .best{
                     
@@ -1017,7 +1032,7 @@ nav  li a:hover{
                         /* background-size: cover; */
                         margin-top: 30px;
                         background-position: center;
-                        
+                        width:512px;
                         
                 }
 
@@ -1026,11 +1041,14 @@ nav  li a:hover{
                 #ok,#oka,#okb,#okc,#okd{
                   
                     height: 300px;
-                    width: 90%;
+                    width: 466px;
+     position: relative;
+    /* left: 6%; */
    
     position: relative;
-    left: 5%;
+    left: 5%; 
                 }
+
                .bath{
                 font-size: 20px;
 
@@ -1038,11 +1056,14 @@ nav  li a:hover{
                .tog{
                
                 height: 350px;
-                width: 100%;
+                width: 466px;
+                position: relative;
+                left: 6%;
                 /* gap: 20px; */
                } 
                .sub{
-                font-size: 27px;
+                font-size: 24px;
+                
                }
                .subscribe{
                  position: relative;
@@ -1061,18 +1082,18 @@ nav  li a:hover{
                 }
                 #email{
                     padding: 20px;
-                    width: 381px;
+                    width: 357px;
                     position: relative;
-                  top:9% ; left: 5%; right: 7%;
+                  top:0% ; left: 5%; right: 7%;
                    
                    
                     
-                }      
+                }     
+               
+                }
                 
-                
-                
-    }
-                 
+    
+            
                 
 
             
