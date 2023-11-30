@@ -178,19 +178,24 @@ nav  li a:hover{
 
 
 
+
 .award{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px;
+     */
+     padding: 0px;
+     position: relative;
+     bottom:99px;
     
 }
 
   .win{
     font-size: 40px;
     color: rgb(18, 4, 4 );
-    font-weight: lighter;
+    font-weight: 100;
   }
   .look{
     font-size: 17px;
@@ -204,16 +209,26 @@ nav  li a:hover{
     position: relative;
     left: 40px;
     color: gray;
+    /* background-color: brown; */
+    width: 93%;
    
     
   }
   .down{
     display: flex;
     justify-content: space-between;
-    width:50%
+     width:50%; 
+    line-height: 30px;
+    /* background-color: blue; */
     
     
     
+  }
+
+  .img img{
+    width: 585px;
+    height: 291px;
+
   }
 
 
@@ -223,7 +238,8 @@ nav  li a:hover{
     width: 155px;
     height: 65px;
     position: relative;
-    bottom: 70px; left: 35px;
+    bottom: 66px; left: 39px;
+    background-color: rgb(255, 0, 0);
 
   }
   .read :hover{
@@ -231,10 +247,14 @@ nav  li a:hover{
     cursor: pointer;
   }
 
-  /* .himal{
-     background-image: url(../mountain.avif); 
+  .himal{
+     background-image: url(../resources/image/best.avif); 
     background-repeat: no-repeat;
-    background-position: cover; */
+    background-position: center; 
+    
+    /* width:550px; */
+  height:500px
+}
   
    
   
@@ -243,8 +263,9 @@ nav  li a:hover{
 
   }
   .tt{
-    font-size: 17px;
+    font-size: 20px;
     padding:30px;
+    color: antiquewhite;
   }
 
   .fact{
@@ -254,20 +275,108 @@ nav  li a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    : 40px;
+    /* position: relative; */
+    padding-top: 8%;
+    color:rgb(15, 15, 49);
   }
      
   .lorem{
     position: relative;
     left: 20%; top: 40px;
-    width: 60%;
+    width: 89%;
+    line-height: 10px;
+    color:rgb(23, 23, 81);
+    font-size: 18px;
     
+ }
+ .lup{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top:45px ; right: 5%;
+  color: rgb(62, 62, 104);
+  font-size: 18px;
  }
   
         
 
-     .number{
+     .num{
         font-size: 30px;
+     }
+     .climb{
+      font-size: 20px;
+     }
+     .icon{
+      color:white;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      position: relative;
+      top: 19%; gap: 10%;
+    
+     }
+     .mountain,.beach,.camera,.ship{
+      position: relative;
+      /* font-size: 25px; */
+      right: 20px;
+     }
+
+
+
+     .pup{
+      
+      margin-top: 8%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+     }
+
+     .pop{
+      font-size: 35px;
+      color: black;
+      font-weight: 100;
+     }
+
+     .ehh{
+      font-size: 17px;
+      color: rgb(74, 72, 72);
+      padding: 10px;
+     }
+
+
+     .icon2{
+      color: gray;
+      display: flex;
+      flex-direction: row;
+      margin-top: 8%;
+      gap: 8%;
+     
+      
+     }
+
+          .tour:hover{
+      border: brown;
+     }
+     .tour{
+      width:65px;
+     }
+     .trip{
+      font-size: 25px;
+      color: black;
+      padding-top:20%;
+     }
+
+     .week{
+      display: flex;
+      flex-direction: row;
+      gap:8%;
+     }
+     .lor{
+      width: 100%;
+      line-height: 30px;
+      padding: 8%;
      }
      

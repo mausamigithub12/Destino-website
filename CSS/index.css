@@ -38,7 +38,7 @@ nav{
     align-items: center;
     padding-left:30px ; 
     position: fixed;
-    left: 0px;
+    left: 1px;
     right: 0px;
     z-index: 100;
     /* margin-left: 50px; */
@@ -244,6 +244,8 @@ nav  li a:hover{
     display: flex;
     gap:25px;
     margin-bottom: 80px;
+    position: relative;
+    left: 0.01%;
     
     
 }
@@ -251,7 +253,7 @@ nav  li a:hover{
 .paris{
     background-image: url('../resources/image/pparis.jpg');
     height: 350px;
-    width: 215px;
+    width: 213px;
     display:flex;
     justify-content: flex-end;
     flex-direction: column;
@@ -264,7 +266,7 @@ nav  li a:hover{
  .italy{
     background-image: url('../resources/image/7vvvv.avif');
     background-repeat: no-repeat;
-    width: 215px;
+    width: 213px;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -277,7 +279,7 @@ nav  li a:hover{
 .Cinque{
     background-image: url('../resources/image/5vvvv.avif');
     background-repeat: no-repeat;
-    width: 215px;
+    width: 213px;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -290,7 +292,7 @@ nav  li a:hover{
     
     background-image: url('../resources/image/lulu.avif');
     background-repeat: no-repeat;
-    width: 215px;
+    width: 213px;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -318,13 +320,12 @@ nav  li a:hover{
     
     background-color: rgba(251, 11, 11,.7);
     height: 450px;
-    width: 550px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     opacity: 60%; 
     margin:30px;
-    left: 0.5%;
-    right: 0px;
+    left: -1.3%;
     position: relative;
 }
     
@@ -340,8 +341,9 @@ nav  li a:hover{
     position: relative;
     margin: 30px;
     opacity: 60%; 
-    left: 0.5%;
-    right: 0px;
+    /* left: 0.5%; */
+    right: -1.3%;
+    /* margin-right: 39px; */
 }  
 
   /* #button */
